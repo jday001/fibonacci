@@ -4,7 +4,7 @@ The `FibonacciGenerator` class can use GCD with a serial queue to move the calcu
 
 ## Comparison ##
 
-Here is a Timer Profiler screen shot of the worst-case recursive algorithm running only on the main thread. I only scrolled to n = 34 or so and gave up:
+Here is a Time Profiler screen shot of the worst-case recursive algorithm running only on the main thread. I only scrolled to n = 34 or so and gave up:
 
 ![Alt text](SLOW_version.png)
 
