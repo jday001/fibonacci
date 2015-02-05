@@ -1,6 +1,6 @@
 This is a sample project that calculates the Fibonacci sequence, displaying the n<sup>th</sup> number in the sequence in the corresponding row of a `UITableView`. It also points out benefits of using `Grand Central Dispatch` to move heavy calculations off the main thread.
 
-The `FibonacciGenerator` class can use GCD with a serial queue to move the calculation off the main thread, but keep the sequence in order (in the `generateFibonacciAtN` function). This is not the most optimized method of calculating a Fibonacci sequence. I am using a `Dynamic Programming` approach to store known sequence values in an array rather than recursively calculating every number. I also added some much slower methods to contrast the differences in performance.
+The `FibonacciGenerator` class can use GCD with a serial queue to move the calculation off the main thread, but keep the sequence in order (in the `generateFibonacciAtN` function). I realize that this is not the most optimized method of calculating a Fibonacci sequence. I am using a `Dynamic Programming` approach to store known sequence values in an array rather than recursively calculating every number. I also added some much slower methods to contrast the differences in performance.
 
 ## Comparison ##
 
