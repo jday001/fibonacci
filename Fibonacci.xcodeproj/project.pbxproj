@@ -8,11 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		65D140C91A82BDC800BDF475 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D140C81A82BDC800BDF475 /* AppDelegate.swift */; };
-		65D140CB1A82BDC800BDF475 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D140CA1A82BDC800BDF475 /* ViewController.swift */; };
 		65D140CE1A82BDC800BDF475 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65D140CC1A82BDC800BDF475 /* Main.storyboard */; };
 		65D140D01A82BDC800BDF475 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65D140CF1A82BDC800BDF475 /* Images.xcassets */; };
 		65D140D31A82BDC800BDF475 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65D140D11A82BDC800BDF475 /* LaunchScreen.xib */; };
 		65D140DF1A82BDC800BDF475 /* FibonacciTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D140DE1A82BDC800BDF475 /* FibonacciTests.swift */; };
+		65D140E91A82BDF600BDF475 /* FibonacciGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D140E81A82BDF600BDF475 /* FibonacciGenerator.swift */; };
+		65D140EB1A82D02800BDF475 /* MyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D140EA1A82D02800BDF475 /* MyTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +30,14 @@
 		65D140C31A82BDC800BDF475 /* Fibonacci.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fibonacci.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65D140C71A82BDC800BDF475 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		65D140C81A82BDC800BDF475 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		65D140CA1A82BDC800BDF475 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		65D140CD1A82BDC800BDF475 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		65D140CF1A82BDC800BDF475 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		65D140D21A82BDC800BDF475 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		65D140D81A82BDC800BDF475 /* FibonacciTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FibonacciTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		65D140DD1A82BDC800BDF475 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		65D140DE1A82BDC800BDF475 /* FibonacciTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FibonacciTests.swift; sourceTree = "<group>"; };
+		65D140E81A82BDF600BDF475 /* FibonacciGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FibonacciGenerator.swift; sourceTree = "<group>"; };
+		65D140EA1A82D02800BDF475 /* MyTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,11 +80,12 @@
 			isa = PBXGroup;
 			children = (
 				65D140C81A82BDC800BDF475 /* AppDelegate.swift */,
-				65D140CA1A82BDC800BDF475 /* ViewController.swift */,
 				65D140CC1A82BDC800BDF475 /* Main.storyboard */,
 				65D140CF1A82BDC800BDF475 /* Images.xcassets */,
 				65D140D11A82BDC800BDF475 /* LaunchScreen.xib */,
 				65D140C61A82BDC800BDF475 /* Supporting Files */,
+				65D140E81A82BDF600BDF475 /* FibonacciGenerator.swift */,
+				65D140EA1A82D02800BDF475 /* MyTableViewController.swift */,
 			);
 			path = Fibonacci;
 			sourceTree = "<group>";
@@ -212,8 +215,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65D140CB1A82BDC800BDF475 /* ViewController.swift in Sources */,
 				65D140C91A82BDC800BDF475 /* AppDelegate.swift in Sources */,
+				65D140EB1A82D02800BDF475 /* MyTableViewController.swift in Sources */,
+				65D140E91A82BDF600BDF475 /* FibonacciGenerator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
